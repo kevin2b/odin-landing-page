@@ -4,7 +4,8 @@ body {
 }
 
 .header,
-.footer{
+.footer
+{
   background-color: #1F2937;
 }
 
@@ -107,4 +108,20 @@ body {
 
 .main-1-card{
   flex: 0 1 150px;
+}
+
+.main-2{
+  padding: 125px 200px;
+  background-color: #E5E7EB;
+}
+
+.main-2-quote{
+  font-size: 36px;
+  font-weight: 300;
+  color: #1F2937;
+}
+
+.main-2-person{
+  font-weight: bold;
+  text-align: end;
 }
