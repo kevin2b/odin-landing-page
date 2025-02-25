@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
-  min-width: 720px;
+  min-width: 900px;
 }
 
 .header,
@@ -20,7 +20,10 @@ body {
 
 .header-logo,
 .hero-main-text,
-.hero-signup{
+.hero-signup,
+.main-3-signup,
+.main-3-text-header,
+.main-3-text-body{
   color: #F9FAF8;
   
 }
@@ -44,7 +47,6 @@ body {
 .hero{
   display: flex;
   padding: 100px 0px;
-  justify-content: space-between;
   gap: 50px;
 }
 
@@ -63,7 +65,8 @@ body {
   padding: 20px;
 }
 
-.hero-signup{
+.hero-signup,
+.main-3-signup{
   font-size: 18px;
   border-radius: 10%;
   background-color: #3882F6;
@@ -77,8 +80,9 @@ body {
   font-size: 12px;
 }
 
-.main-1{
-  padding: 25px 150px;
+.main-1,
+.main-3{
+  padding: 100px 150px;
 }
 
 .information-header-text{
@@ -95,8 +99,8 @@ body {
 }
 
 .main-1-image{
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
   border: 3px solid #3882F6;
   border-radius: 10px;
 }
@@ -107,7 +111,7 @@ body {
 }
 
 .main-1-card{
-  flex: 0 1 150px;
+  flex: 0 1 125px;
 }
 
 .main-2{
@@ -124,4 +128,27 @@ body {
 .main-2-person{
   font-weight: bold;
   text-align: end;
+}
+
+.main-3-container{
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 50px 70px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-3-signup{
+  border: 3px solid #F9FAF8;
+}
+
+.main-3-text-header{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main-3-text-body{
+  font-size: 18px;
 }
